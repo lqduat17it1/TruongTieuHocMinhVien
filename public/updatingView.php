@@ -1,12 +1,3 @@
-<?php
-    if(!isset($_GET["id"])) {
-        header("Location: index.php");
-        die();
-    }
-  
-    $id = $_GET["id"];
-?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html  lang="en-US">
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -54,23 +45,7 @@
                     <div class="wd-list-box">
                       <span id="dnn_ctr1915_View_lblTintuc">
                         <div class='wd-content-detail'>
-                          <?php
-                              require_once "../utils/DBConnector.php";
-
-                              $statement = "SELECT * FROM notification WHERE id='$id' LIMIT 1";
-                              $res = $connect->query($statement);
-                              
-                              $row = null;
-                              if($res) {
-                                $row = $res->fetch_object();
-                              }
-                            
-                              // redirect if dont have any record
-                              if($row != null) {
-                          ?>
-                          <?php echo "<h2>".$row->title."</h2>"; ?>
-                          <div class="wd-date">28/03/2023 23:34</div>
-                          <?php echo $row->detail; }?>
+                          Nội dung đang được cập nhật ..........
                           </div>
                         </div>
                       </span>

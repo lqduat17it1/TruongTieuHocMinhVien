@@ -26,7 +26,7 @@
 	           <div class="col-md-5">
 	              <!-- Logo -->
 	              <div class="logo">
-	                 <h1><a href="index.php">MV-Admin</a></h1>
+	                 <h1><a href="index.php">MinhVien-Admin</a></h1>
 	              </div>
 	           </div>
 	           <div class="col-md-5">

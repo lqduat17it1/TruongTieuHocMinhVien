@@ -15,8 +15,8 @@
                 <div class="wd-top-header">
                   <div class="wd-top-left">
                     <ul class="wd-list-menu-l">
-                      <li class="first"><a href="index.php">Thông báo</a></li>
-                      <li><a href="#">Liên hệ</a></li>
+                      <li class="first"><a href="index.php">Xã Tiên Cảnh, Huyện Tiên Phước</a></li>
+                      <li><a href="#">Liên hệ: (+84.0987) 654321</a></li>
                     </ul>
                   </div>
                   <div class="wd-top-right">
@@ -47,17 +47,13 @@
                             ?>
                           </ul>
                         </li>
-                        <li>
-                          <a href='#' >Phòng</a>
+                        <li style="width: auto; padding-left: 15px; padding-right: 15px;">
+                          <a href='#' s >Kế hoạch giáo dục</a>
                           <ul class='wd-content-list-category-menu' style='display: none;'>
                             <div class='wd-arrow'></div>
-                            <li><a href='#' >Công tác sinh viên</a></li>
-                            <li><a href='#' >Cơ sở vật chất</a></li>
-                            <li><a href='#' >Đào tạo</a></li>
-                            <li><a href='#' >Kế hoạch - Tài chính</a></li>
-                            <li><a href='#' >Khảo thí & Đảm bảo chất lượng giáo dục</a></li>
-                            <li><a href='#' >Tổ chức - Hành chính </a></li>
-                            <li><a href='#' >Thanh tra - Pháp chế</a></li>
+                            <li><a href='updatingView.php' >Thời khóa biểu</a></li>
+                            <li><a href='updatingView.php' >Thi - Kiểm tra</a></li>
+                            <li><a href='updatingView.php' >Kế hoạch</li>
                           </ul>
                         </li>
                       </ul>
@@ -71,9 +67,9 @@
                   <div class="wd-content">
                     <h1>
                       <a class="wd-logo" href="index.php">
-                      <img src="resource/portals/_default/skins/dhbk/img/front/logo.png" alt="DHBK" /></a>
+                      <img src="resource/portals/_default/skins/minhvien/img/front/logo.png" alt="DHBK" /></a>
                       <a class="wd-logo-small" href="index.php">
-                      <img src="resource/portals/_default/skins/dhbk/img/front/logo-small.png" alt="DHBK" /></a>
+                      <img src="resource/portals/_default/skins/minhvien/img/front/logo-small.png" alt="DHBK" /></a>
                     </h1>
                     
                   </div>
@@ -84,14 +80,14 @@
                 <span id="dnn_ctr1902_View_lblMenu">
                   <div id='cbp - hrmenu' class='menu'>
                     <ul>
-                      <li><a href='index.php' >Home</a></li>
+                      <li><a href='index.php' >Trang chủ</a></li>
                       <li>
                         <a href='#' >Giới thiệu</a>
                         <ul>
-                          <li><a href='#'> Truyền thống nhà trường</a></li>
-                          <li><a href='#'> Nhiệm vụ</a></li>
-                          <li><a href='#'> Cơ cấu tổ chức</a></li>
-                          <li><a href='#'> Ban giám hiệu</a></li>
+                          <li><a href='updatingView.php'> Truyền thống nhà trường</a></li>
+                          <li><a href='updatingView.php'> Nhiệm vụ</a></li>
+                          <li><a href='organizationalStructureView.php'> Cơ cấu tổ chức</a></li>
+                          <li><a href='updatingView.php'> Ban giám hiệu</a></li>
                         </ul>
                       </li>
                       <li>
@@ -102,13 +98,18 @@
                           <li>
                             <a href='#' >Tổ chuyên môn</a>
                             <ul>
-                              <li><a href='#' >Tổ Lý - Công nghệ</a></li>
-                              <li><a href='#' >Tổ Hóa - Sinh</a></li>
-                              <li><a href='#' >Tổ Tiếng Anh</a></li>
-                              <li><a href='#' >Tổ Toán - Tin</a></li>
-                              <li><a href='#' >Tổ Thể dục - Âm nhạc</a></li>
-                              <li><a href='#' >Tổ Sử - Địa - Công dân</a></li>
-                              <li><a href='#' >Tổ Văn - Mỹ thuật</a></li>
+                              <?php
+                                $statement = "SELECT `idk`, `name` FROM `faculty` ORDER BY `name` ASC";
+                                $res = $connect->query($statement);
+                              
+                                if($res) {
+                                  while ($row = $res->fetch_object()){
+                              ?>
+                                <li><a href='./view.php?idk=<?php echo $row->idk; ?>' ><?php echo $row->name; ?></a></li>
+                              <?php 
+                                  } 
+                                }
+                              ?>
                             </ul>
                           </li>
                           <li><a href='#' >Ban đại diện cha mẹ học sinh</a></li>
@@ -150,8 +151,8 @@
               <div class="wd-center">
                 <div style="margin-top: 0px; margin-bottom: 0px">
                   <span id="dnn_ctr1902_View_lblMenuNav">
-                    <ul class='wd - breadcrumb'>
-                      <li><a class='wd-fist-link' href=''>Trang chủ</a></li>
+                    <ul class='wd - breadcrumb' style="text-align: center;">
+                      <li><a class='wd-fist-link' href=''>Chào mừng bạn đến với cổng thông tin điện tử của Trường Tiểu hoc Mính Viên</a></li>
                     </ul>
                   </span>
                 </div>

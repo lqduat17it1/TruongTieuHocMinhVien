@@ -10,7 +10,7 @@
     <title>
       Trường Tiểu học Minh Viên
     </title>
-    <link href="resource/Portals/_default/skins/dhbk/skin4b95.css?v=<?php echo mt_rand(); ?>" type="text/css" rel="stylesheet"/>
+    <link href="resource/Portals/_default/skins/minhvien/skin4b95.css?v=<?php echo mt_rand(); ?>" type="text/css" rel="stylesheet"/>
   </head>
   <body id="Body">
       <?php include_once "layout/script_tag.php" ?>
@@ -53,19 +53,22 @@
                               <ul class="wd-list-notify">
                               <?php 
                                 $statement = "SELECT * FROM notification ORDER BY created_at DESC";
-                                $res = $connect->query($statement);
+                                $res = mysqli_query($connect, $statement);
             
-                                if($res) {
-                                    while ($row = $res->fetch_object()){
+                                if($res->num_rows > 0) {
+                                    while ($row = $res->fetch_assoc()){
+                                      $dateTime = new DateTime($row['created_at']);
+                                      $year = $dateTime->format("Y");
+                                      $monthDay = $dateTime->format("d/m");
                               ?>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">20/02</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name"><?php echo $monthDay ?></span><span class="number"><?php echo $year?></span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="notificationView.php?id=<?php echo $row->id; ?>" >
-                                        <?php echo $row->title ?></a>
+                                      <p class="des"><a href="notificationView.php?id=<?php echo $row['id'] ?>" >
+                                        <?php echo $row['title'] ?></a>
                                         <span class='wd-notify-news'>New</span></p>
-                                      <p class="time">20/02/2023 16:45</p>
+                                      <p class="time"><?php echo $row['created_at'] ?></p>
                                     </div>
                                   </div>
                                 </li>
