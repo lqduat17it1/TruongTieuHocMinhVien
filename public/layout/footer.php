@@ -9,11 +9,11 @@
             <div class="wd-center">
               <div class="wd-top-footer">
                 <div class="wd-block-info-company">
-                  <h3 class="wd-title-footer">Tuyển sinh & đào tạo</h3>
+                  <h3 class="wd-title-footer">Giáo dục & đào tạo</h3>
                   <ul>
-                    <li><a href="#">Thông tin tuyển sinh</a></li>
-                    <li><a href="#">Đào tạo đại học</a></li>
-                    <li><a href="#">Đào tạo sau đại học</a></li>
+                    <li><a href="#">Thông tin dạy học</a></li>
+                    <li><a href="#">Kế hoạch giáo dục</a></li>
+                    <li><a href="#">Văn bản - Công văn</a></li>
                     <li><a href="#">Đào tạo thường xuyên</a></li>
                   </ul>
                 </div>
@@ -23,8 +23,8 @@
                     <li><a href="#">Thư viện</a></li>
                     <li><a href="#">E-Learning</a></li>
                     <li><a href="#">Email</a></li>
-                    <li><a href="#">Hệ thống thông tin sinh viên</a></li>
-                    <li><a href="#">Hệ thống tác nghiệp</a></li>
+                    <li><a href="#">Hệ thống thông tin học sinh</a></li>
+                    <li><a href="#">Hệ thống tra cứu</a></li>
                   </ul>
                 </div>
                 <div class="wd-block-info-company">
@@ -47,7 +47,7 @@
               </div>
               <div class="clear"></div>
               <div class="wd-footer">
-                <p>© Bản quyền Trường Đại học Bách khoa - Đại học Đà Nẵng</p>
+                <p>© Bản quyền Trường Tiểu Học Minh Viên</p>
               </div>
             </div>
           </div>

@@ -33,9 +33,9 @@
                 // cập nhật giá trị cho thông báo
                 $sql = "UPDATE faculty SET name='$name', info='$info' WHERE idk='$idk'";
                 if ($connect->query($sql) === TRUE) {
-                    setFlash("success", "Đã cập nhật thông tin khoa thành công!");
+                    setFlash("success", "Đã cập nhật thông tin tổ thành công!");
                 } else {
-                    setFlash("error", "Cập nhật thông tin khoa không thành công! ".$connect->error);
+                    setFlash("error", "Cập nhật thông tin tổ không thành công! ".$connect->error);
                 }
             }
         }
@@ -68,7 +68,7 @@
 								<div class="row">
                                     <div class="col-sm-3">
 										<div class="form-group">
-                                            <label for="idk">Mã khoa</label>
+                                            <label for="idk">Mã tổ</label>
                                             <input name="idk" type="hidden" value="<?php echo $idk; ?>">
 											<input name="idk" type="text" class="form-control" 
                                             value="<?php echo $idk; ?>"
@@ -78,7 +78,7 @@
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<label for="name">Tên khoa</label>
+											<label for="name">Tên tổ</label>
 											<input name="name" type="text" class="form-control" 
                                             value="<?php echo $name; ?>"
                                             placeholder="Nhập tiêu đề">

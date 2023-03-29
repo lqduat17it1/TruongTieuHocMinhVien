@@ -3,10 +3,10 @@
 ?>
 <div id="dnn_ctr1905_ModuleContent" class="DNNModuleContent ModBKMenuLeftC">
 <span id="dnn_ctr1905_View_lblGroup">
-  <p class='wd-title-nav'>ĐH BÁCH KHOA ĐHĐN</p>
+  <p class='wd-title-nav'>TIỂU HỌC MINH VIÊN</p>
   <div class='wd-left-accordion'>
     <a class='' href='index.php' >Thông báo</a>
-    <h3 class='sub-title-accordion'>Về các khoa<span class='arrow'></span>
+    <h3 class='sub-title-accordion'>Về các Tổ<span class='arrow'></span>
     </h3>
     <div class='sub-link'>
     <?php

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BKIntro-Admin</title>
+    <title>MV-Admin</title>
     <link rel="shortcut icon" type="image/ico" href="images/icon-120x120.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -26,7 +26,7 @@
 	           <div class="col-md-5">
 	              <!-- Logo -->
 	              <div class="logo">
-	                 <h1><a href="index.php">BKIntro-Admin</a></h1>
+	                 <h1><a href="index.php">MV-Admin</a></h1>
 	              </div>
 	           </div>
 	           <div class="col-md-5">

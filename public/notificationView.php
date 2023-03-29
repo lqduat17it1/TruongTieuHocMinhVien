@@ -14,7 +14,7 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <link rel="icon" href="resource/Images/favicon.jpg" type="image/x-icon">
     <title>
-      Trường Đại học Bách khoa - Đại học Đà Nẵng
+      Trường Tiểu Học Minh Viên
     </title>
     <link href="resource/Portals/_default/skins/dhbk/skin4b95.css?cdv=118" type="text/css" rel="stylesheet"/>
   </head>
@@ -69,7 +69,7 @@
                               if($row != null) {
                           ?>
                           <?php echo "<h2>".$row->title."</h2>"; ?>
-                          <div class="wd-date">16/04/2018 10:11</div>
+                          <div class="wd-date">28/03/2023 23:34</div>
                           <?php echo $row->detail; }?>
                           </div>
                         </div>

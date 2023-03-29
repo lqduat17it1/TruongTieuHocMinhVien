@@ -80,7 +80,7 @@
 										</div>
 										
 										<div class="form-group">
-											<label>Khoa</label>
+											<label>Tổ</label>
 											<select name="idk" class="form-control">
 												<option value="common">Thông báo chung</option>
 											<?php

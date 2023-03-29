@@ -8,7 +8,7 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <link rel="icon" href="resource/Images/favicon.jpg" type="image/x-icon">
     <title>
-      Trường Tiểu học Mính Viên
+      Trường Tiểu học Minh Viên
     </title>
     <link href="resource/Portals/_default/skins/dhbk/skin4b95.css?v=<?php echo mt_rand(); ?>" type="text/css" rel="stylesheet"/>
   </head>
@@ -60,58 +60,58 @@
                               ?>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">18/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/02</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
                                       <p class="des"><a href="notificationView.php?id=<?php echo $row->id; ?>" >
                                         <?php echo $row->title ?></a>
                                         <span class='wd-notify-news'>New</span></p>
-                                      <p class="time">18/05/2018 16:45</p>
+                                      <p class="time">20/02/2023 16:45</p>
                                     </div>
                                   </div>
                                 </li>
                               <?php }} ?>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">18/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/02</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="#">Trường Đại học Sư phạm Kỹ thuật Vinh tuyển dụng giảng viên</a><span class='wd-notify-news'>New</span></p>
-                                      <p class="time">18/05/2018 16:45</p>
+                                      <p class="des"><a href="#">Ngành Giáo dục tỉnh Quảng Nam tổ chức Hội nghị Sơ kết 03 năm phong trào thi đua "Giỏi việc trường, đảm việc nhà"; Tổng kết hoạt động nữ công năm học 2017-2018; Sinh hoạt kỷ niệm 88 năm ngày thành lập Hội Liên hiệp phụ nữ Việt Nam.</a><span class='wd-notify-news'>New</span></p>
+                                      <p class="time">20/02/2023 16:45</p>
                                     </div>
                                   </div>
                                 </li>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">17/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/02</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="#">THÔNG TIN TUYỂN DỤNG - KHỐI GIẢI PHÁP DOANH NGHIỆP - TCT VIỄN THÔNG VIETTEL</a><span class='wd-notify-news'>New</span></p>
-                                      <p class="time">17/05/2018 15:45</p>
+                                      <p class="des"><a href="#">Quảng Nam: Tưng bừng khai giảng năm học mới 2018-2019</a><span class='wd-notify-news'>New</span></p>
+                                      <p class="time">20/02/2023 15:45</p>
                                     </div>
                                   </div>
                                 </li>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">17/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/03</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="#">Khoa CNTT - Thông báo về việc chuẩn bị nộp và bảo vệ ĐATN cho Khóa 13T</a><span class='wd-notify-news'>New</span></p>
-                                      <p class="time">17/05/2018 05:35</p>
+                                      <p class="des"><a href="#">Công đoàn Giáo dục tỉnh Quảng Nam tổ chức Hội nghị Tổng kết hoạt động công đoàn năm học 2017-2018, triển khai nhiệm vụ năm học 2018-2019</a><span class='wd-notify-news'>New</span></p>
+                                      <p class="time">20/03/2023 05:35</p>
                                     </div>
                                   </div>
                                 </li>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">14/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/03</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="#">ASIANTECH - Tuyển thực tập sinh- Khóa hè 2018</a></p>
-                                      <p class="time">14/05/2018 08:49</p>
+                                      <p class="des"><a href="#">Tổng kết, khen thưởng các cuộc thi cấp tỉnh, cấp huyện năm học 2017-2018</a></p>
+                                      <p class="time">20/03/2023 08:49</p>
                                     </div>
                                   </div>
                                 </li>
                                 <li>
                                   <div class="wd-notify">
-                                    <div class="wd-notify-left"><span class="name">10/05</span><span class="number">2018</span></div>
+                                    <div class="wd-notify-left"><span class="name">20/02</span><span class="number">2018</span></div>
                                     <div class="wd-notify-right">
-                                      <p class="des"><a href="#">Chung kết "Cuộc đua số 2017-2018" - Cùng cổ vũ cho các thành viên Trường Đại học Bách khoa, ĐHĐN</a></p>
-                                      <p class="time">10/05/2018 07:49</p>
+                                      <p class="des"><a href="#">DỰ THI TÌM KIẾM TÀI NĂNG TIẾNG ANH</a></p>
+                                      <p class="time">20/02/2023 07:49</p>
                                     </div>
                                   </div>
                                 </li>

@@ -20,7 +20,7 @@
   			<div class="content-box-large">
   				<div class="row">
 	  				<div class="panel-heading">
-	  					<div class="panel-title ">Quản lý Khoa ĐHBK ĐN</div>
+	  					<div class="panel-title ">Quản lý Tổ</div>
 		  			</div>
 				</div>
 				<hr>	
@@ -45,7 +45,7 @@
 						<thead>
 							<tr>
 								<th>ID</th>
-								<th>Tên khoa</th>
+								<th>Tên Tổ</th>
 								<th>Giới thiệu</th>
 								<th>Chức năng</th>
 							</tr>

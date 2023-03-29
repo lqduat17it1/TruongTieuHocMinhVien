@@ -20,7 +20,7 @@
 		if ($connect->query($sql) === TRUE) {
 			setFlash("success", "Đã tạo mới khoa thành công!");
 		} else {
-			setFlash("error", "Tạo mới khoa không thành công! ".$connect->error);
+			setFlash("error", "Tạo mới tổ không thành công! ".$connect->error);
 		}
     }
 
@@ -44,7 +44,7 @@
 	  			<div class="row">
 	  				<div class="col-md-12 panel-info">
 			  			<div class="content-box-header panel-heading">
-		  					<div class="panel-title ">Thêm thông báo</div>
+		  					<div class="panel-title ">Thêm tổ</div>
 			  			</div>
 			  			<div class="content-box-large box-with-header">
 				  			<div>
@@ -53,14 +53,14 @@
 								<div class="row">
 									<div class="col-sm-3">
 										<div class="form-group">
-											<label for="idk">Mã khoa</label>
-											<input name="idk" type="text" class="form-control" placeholder="KhoaCNTT">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
+											<label for="idk">Mã Tổ</label>
+											<input name="idk" type="text" class="form-control" placeholder="TT - T">
+                      </div>
+                      </div>
+                     <div class="col-sm-6">
 										<div class="form-group">
-											<label for="name">Tên khoa</label>
-											<input name="name" type="text" class="form-control" placeholder="Khoa Công nghệ Thông tin">
+											<label for="name">Tên tổ</label>
+											<input name="name" type="text" class="form-control" placeholder="Tổ Tin - Toán">
 										</div>
 									</div>
 

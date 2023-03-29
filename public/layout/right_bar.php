@@ -9,22 +9,22 @@
           <ul class="wd-list-block-links wd-img-links">
             <li>
               <a href="javascript:void(0)">
-              <img src="resource/Images/UserfulLinks/home_HTTTSV.jpg" width="100%" />
+              <img src="resource/Images/UserfulLinks/trang-tin-mau-xanh98.gif" width="100%" />
               </a>
             </li>
             <li>
               <a href="javascript:void(0)">
-              <img src="resource/Images/UserfulLinks/home_tacnghiep.jpg" width="100%" />
+              <img src="resource/Images/UserfulLinks/logo.gif" width="100%" />
               </a>
             </li>
             <li>
               <a href="javascript:void(0)">
-              <img src="resource/Images/UserfulLinks/home_tailieuso.jpg" width="100%" />
+              <img src="resource/Images/UserfulLinks/violet.jpg" width="100%" />
               </a>
             </li>
             <li>
               <a href="javascript:void(0)" >
-              <img src="resource/Images/UserfulLinks/home_bacongkhai.jpg" width="100%" />
+              <img src="resource/Images/UserfulLinks/ttbaolu_1.gif" width="100%" />
               </a>
             </li>
             <li>

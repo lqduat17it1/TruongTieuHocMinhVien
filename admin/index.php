@@ -29,7 +29,7 @@
 				                </span>
 				                    <div class="text-box">
 				                        <p class="main-text"><a class="fs-14" href="notifications.php" title="">Quản lý thông báo</a></p>
-				                        <p class="text-muted">Có 4 thông báo</p>
+				                        <p class="text-muted">Có 8 thông báo</p>
 				                    </div>
 				                </div>
 				            </div>
@@ -39,8 +39,8 @@
 				                    <span class="glyphicon glyphicon-book"></span>
 				                </span>
 				                    <div class="text-box">
-				                        <p class="main-text"><a class="fs-14" href="faculties.php" title="">Quản lý khoa</a></p>
-				                        <p class="text-muted">Có 20 khoa</p>
+				                        <p class="main-text"><a class="fs-14" href="faculties.php" title="">Quản lý Tổ</a></p>
+				                        <p class="text-muted">Có 7 tổ</p>
 				                    </div>
 				                </div>
 				            </div>

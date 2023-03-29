@@ -22,7 +22,7 @@
                   <div class="wd-top-right">
                       <fieldset class="wd-form-search" style="margin-top: 5;">
                         <div class="wd-input">
-                          <input class="txt-search" type="text" placeholder="Tìm kiếm thông tin" />
+                          <input class="txt-search" type="text" placeholder="Tìm kiếm thông tin"/>
                           <input class="btn-search" type="submit" value="">
                         </div>
                       </fieldset>
@@ -30,7 +30,7 @@
                       <ul class='wd-list-menu-r'>
                       <ul class='wd-list-menu-r'>
                         <li>
-                          <a href='#' >Khoa</a>
+                          <a href='#' >Tổ</a>
                           <ul class='wd-content-list-category-menu' style='display: none;'>
                             <div class='wd-arrow'></div>
                             <?php
@@ -56,7 +56,6 @@
                             <li><a href='#' >Đào tạo</a></li>
                             <li><a href='#' >Kế hoạch - Tài chính</a></li>
                             <li><a href='#' >Khảo thí & Đảm bảo chất lượng giáo dục</a></li>
-                            <li><a href='#' >Khoa học công nghệ & Hợp tác quốc tế</a></li>
                             <li><a href='#' >Tổ chức - Hành chính </a></li>
                             <li><a href='#' >Thanh tra - Pháp chế</a></li>
                           </ul>
@@ -128,7 +127,7 @@
                       <li>
                         <a href='#' >Văn bản - Công văn</a>
                         <ul>
-                          <li><a href='#'> Thông báo, phổ biến/a></li>
+                          <li><a href='#'> Thông báo, phổ biến </a></li>
                           <li><a href='#'> Văn bản Phòng GD&ĐT</a></li>
                           <li><a href='#'> Văn bản - Kế hoạch</a></li>
                           <li><a href='#'> Thông tin - Thông báo</a></li>
@@ -137,7 +136,7 @@
                       <li>
                         <a href='#' >Học sinh</a>
                         <ul>
-                          <li><a href='#'> Nét đẹp Đội em/a></li>
+                          <li><a href='#'> Nét đẹp Đội em</a></li>
                           <li><a href='#'> Kiến thức phổ thôngT</a></li>
                           <li><a href='#'> Kỹ năng sống</a></li>
                         </ul>

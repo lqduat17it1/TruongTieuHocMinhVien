@@ -2,7 +2,7 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Tên khoa</th>
+            <th>Tên Tổ</th>
             <th>Giới thiệu</th>
             <th>Chức năng</th>
         </tr>

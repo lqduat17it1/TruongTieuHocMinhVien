@@ -15,7 +15,7 @@
   <head id="Head">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <title>
-      Trường Tiểu học Mính Viên
+      Trường Tiểu học Minh Viên
     </title>
     <link href="resource/Portals/_default/skins/dhbk/skin4b95.css?cdv=118" type="text/css" rel="stylesheet"/>
   </head>

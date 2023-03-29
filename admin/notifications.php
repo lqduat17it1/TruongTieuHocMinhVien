@@ -49,7 +49,7 @@
 							<tr>
 								<th>ID</th>
 								<th>Tiêu đề</th>
-								<th>Khoa</th>
+								<th>Tổ</th>
 								<th>Chi tiết</th>
 								<th>Chức năng</th>
 							</tr>
